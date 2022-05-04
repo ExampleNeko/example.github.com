@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+.m-menu-item2{
+    margin-left: 10px;
+}
+.m-menu-item1{
+    margin-left: 10px;
+      font-weight: bold;
+}
+
+.m-menu {
+    padding: 15px 53px;
+    font-size: 12px;
+  word-spacing: 10px;
+    letter-spacing: 1px;
+}
+
+#main{
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-size: 5px;
+    letter-spacing: 0.5px;
+}
+
+#mainbar{
+    width: 1000px;
+    float: left;
+}
+.bar{
+    margin-bottom: 10px;
+    width: 65%;
+    height: 160px;
+}
+.text{
+    float: left;
+    margin-right: 50px;
+}
+.img{
+    float: right;
+}
+
+
+.source{
+    color: grey;
+}
+.title{
+     margin-top: 4px;
+    font-size: 18px;
+    font-weight: bolder;
+    letter-spacing: 0.2px;
+}
+.abstract{
+    margin-top: 7px;
+    margin-bottom: 17px;
+    letter-spacing: 0.6px;
+    word-spacing: -0.8px;
+    color: grey;
+}
+.author{
+    letter-spacing: 0.1px;
+    word-spacing: 0.1px;
+}
+.time{
+    margin-top: 4px;
+    letter-spacing: 0.4px;
+    word-spacing: 0.1px;
+    color: grey;
+}
+
+.image img{
+    float: right;
+    width: auto;
+    height: 120px;
+}
+
+#sidebar{
+    width: 245px;
+    float: right;
+    position: absolute;
+    left: 850px;
+    margin-top: 28px;
+}
+.title1{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    left: -18px;
+    letter-spacing: -1px;
+}
+hr{
+    position: relative;
+    right: 20px;
+    top: 20px;
+    width: 266px;
+}
+
+#particular{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    letter-spacing: -0.2px;
+    margin-bottom: 9px;
+}
+.content{
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: -0.2px;
+    position: relative;
+    top: -10px;
+}
+
+.row{
+    height: 80px;
+    width: 250px;
+}
+
+#number01{
+    float: left;
+    font-size: 25px;
+    color: grey;
+    position: relative;
+    left: -20px;
+    top: 42px;
+}
+.number{
+    float: left;
+    font-size: 25px;
+    color: grey;
+    position: relative;
+    left: -20px;
+    top: 13px;
+}
+.new{
+    float: right;
+    position: relative;
+    left: 26px;
+    bottom: 8px;
+}

@@ -1,0 +1,57 @@
+body {
+  padding-top: 20px;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.main {
+  position: relative;
+  border: 2px solid #bbbbbb;
+  width: 900px;
+  height: 600px;
+}
+
+
+.main>ui>li {
+  margin-top: 52px;
+  margin: 20px auto;
+  list-style: none;
+  width: 700px;
+  height: 30px;
+  line-height: 30px;
+  border: 2px solid #bbbbbb;
+  text-align: center;
+}
+
+.main>ui>li>* {
+  width: 50px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.main>ui>li>.blank {
+  display: inline-block;
+  width: 600px;
+  height: 30px;
+  border: solid #bbbbbb;
+  border-width: 0 2px;
+}
+
+.main>ui>li>.del {
+  user-select: none;
+}
+
+.main>.add {
+  text-align: center;
+  display: block;
+  user-select: none;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  background: #339966;
+  color: #fff;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  border: 1px solid #000;
+}

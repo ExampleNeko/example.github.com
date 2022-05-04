@@ -1,0 +1,270 @@
+@charset "UTF-8";
+body {
+  background: #F1F0ED;
+}
+header {
+	position: fixed;
+	top: 0;
+	background: #00C3AE;
+	padding:5px; 
+	color: #fff;
+	z-index: 1;
+}
+header input {
+	background: #00A594;
+	width: 100%;
+	height: 36px;
+	border:1px solid #00A594;
+	border-radius: 3px;
+	padding-bottom: 6px;
+	font-size: 18px;
+	padding-left: 30px;
+	color: lightskyblue;
+}
+header>.row>div {
+	padding: 0px;
+}
+footer {
+	position: fixed;
+	z-index: 0;
+	background: #8FC6EA;
+	bottom: 0px;
+}
+footer>.row {
+	display: flex;
+	padding: 10px;
+	color: #00C2AF;
+}
+
+.row {
+	align-items: center;
+}
+.m-title {
+	display: flex;
+}
+.m-title>span {
+	margin-left: 10px;
+}
+.m-title>svg{
+	position: absolute;
+	left: 35px;
+	top: 5px;
+}
+
+.m-search>svg {
+	position: absolute;
+	left: 10px;
+	top: 8px;
+}
+.m-user {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 25px;
+}
+.m-user>span {
+	font-size: 15px;
+}
+
+.row1 {
+	display: flex;
+	padding-top: 10px;
+}
+.row1>div>svg {
+	font-size: 40px;
+}
+.row1-column1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.content1 {
+	background:#FFFFFF;
+	border-bottom: 1px solid #E0D9CF;
+	padding-bottom: 15px;
+	padding-top: 60px;
+	margin-bottom: 10px;
+}
+
+
+
+.content2 {
+	background:#FFFFFF;
+	border-bottom: 1px solid #E0D9CF;
+	border-top: 1px solid #E0D9CF;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin-bottom: 10px;
+	display: flex;
+}
+
+
+.content2>.col-4 {
+	flex-direction: column;
+	border-right: 1px solid #E0D9CF;
+}
+
+.content2>.col-4>div {
+	width: 80px;
+	height: 75px;
+	background: #666666;
+	
+}
+
+.content2>.col-8 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-left:1px;
+}
+.content2>.col-8>.top {
+	display: flex;
+	border-bottom: 1px solid #E0D9CF;
+	padding-bottom: 5px;
+}
+.content2>.col-8>.top>div>div {
+	width: 60px;
+	height: 50px;
+	background: #666666;
+	
+	margin-left: 20px;
+}
+
+
+.content2>.col-8>.bottom {
+	display: flex;
+}
+
+.content2>.col-8>.bottom>.left {
+	padding-left: 0px;
+	padding-right: 8px;
+	border-right: 1px solid #E0D9CF;
+}
+
+.content2>.col-8>.bottom>.left>div {
+	width: 40px;
+	height: 40px;
+	background: #666666;
+	
+	margin-left: 20px;
+}
+
+
+
+.content2>.col-8>.bottom>.right>div {
+	display: flex;
+}
+.content2>.col-8>.bottom>.right>div>div {
+	background: #4B4B4B;
+	width: 30px;
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	font-size: 13px;
+	border-radius: 2px;
+	color: #FFFFFF;
+}
+.content2>.col-8>.bottom>.right>div>span {
+	position: relative;
+	top: -3px;
+}
+
+
+.content3 {
+	background:#FFFFFF;
+	border-bottom: 1px solid #E0D9CF;
+	border-top: 1px solid #E0D9CF;
+	margin-bottom: 10px;
+	display: flex;
+}
+.content3>.left {
+	display: flex;
+	padding-left: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-right: 1px solid #E0D9CF
+}
+.content3>.left>div>div {
+	margin-left: 10px;
+	width: 60px;
+	height: 60px;
+	background: #666666;
+	
+}
+.content3>.right {
+	display: flex;
+	padding-top: 10px;
+}
+.content3>.right>div>div {
+	margin-left: 20px;
+	width: 60px;
+	height: 60px;
+	background: #666666;
+	
+}
+
+
+.content4 {
+	background:#FFFFFF;
+	border-bottom: 1px solid #E0D9CF;
+	border-top: 1px solid #E0D9CF;
+	display: flex;
+	flex-direction: column;
+	padding-right:0;
+	padding-bottom: 60px;
+}
+.content4>.top {
+	border-bottom: 1px solid #E0D9CF;
+	padding:10px 0 10px 0;
+}
+.content4>.body {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #E0D9CF;
+	display: flex;
+}
+
+.content4>.col-12,.content4>.col-12>.col-3,.content4>.col-12>.col-6 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.content4>.body>.col-3>div {
+	width: 80px;
+	height:80px;
+	background: #666666;
+	
+}
+
+.content4>.body>div>.label {
+	position: absolute;
+	margin-top: 10px;
+	background: #00C2AF;
+	background-color: transparent;
+	border-bottom: 20px solid #00C2AF;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 0px solid transparent;
+	-webkit-transform:rotate(-45deg);
+	width: 80px;
+	height: 20px;
+	font-size: 13px;
+	left: -18px;
+	top: 2px;
+	color: white;
+}
+
+.content4>.col-12>.col-6 {
+	display: flex;
+	flex-direction: column;
+}
+
+.content4>.col-12>.col-4>span {
+	position: absolute;
+	bottom: 5px;
+}
+#last{
+	border-bottom: none;
+}
+
